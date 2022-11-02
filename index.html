@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE BELOW WATER</title>
+    <link rel="stylesheet" href="./STYLE.CSS">    
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">LIFE BELOW WATER</h1>
+        <ul class="NAV-link">
+            <Li class="active"><a href="#"></a>Home</Li>
+            <Li><a href="#"></a>information</Li>
+            <Li><a href="#"></a>Marine Life</Li>
+            <Li><a href="#">Be ocean friendly</Li>
+            <Li class="ctn"><a href="#">Contact</a></li>   
+           </ul>
+           <img src=""alt="" class="menu-btn">    
+    </nav>    
+    <header>
+        <div claass="header=content">
+            <h2>EXPLORE THE LIFE BELOW WATER</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL EXPERIENCE</h1>
+            <a href="#" class="ctn">LEARN MORE</a>
+    </header>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListner('click',()=>{
+          navlinks.classList.toggle('mobile-menu')  
+        })
+    </script>
+
+</body>
+</html>    
